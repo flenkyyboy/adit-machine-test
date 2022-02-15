@@ -1,5 +1,5 @@
 import company from '../../models/company.js';
-import { validateCreateAndEditCompany } from '../validations/companyValidation.js';
+import { validateCreateAndEditCompany } from '../../validations/companyValidation.js';
 
 export const doCreateCompany = (data) => {
   return new Promise(async (resolve, reject) => {

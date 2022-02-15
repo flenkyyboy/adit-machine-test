@@ -1,6 +1,6 @@
 import company from '../../models/company.js';
 import employee from '../../models/employee.js';
-import { validateCreateAndEditEmployee } from '../validations/employeeValidation.js';
+import { validateCreateAndEditEmployee } from '../../validations/employeeValidation.js';
 
 export const doCreateEmployee = (data) => {
   return new Promise(async (resolve, reject) => {
