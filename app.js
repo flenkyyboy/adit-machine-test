@@ -30,7 +30,7 @@ app.use('/api', api);
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, (_) => {
-  console.log(`Server Listing on http://localhost:${5000}`);
+  console.log(`Server Listing on http://localhost:${PORT}`);
   mongoose.connect(process.env.DB_CONNECTION_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
